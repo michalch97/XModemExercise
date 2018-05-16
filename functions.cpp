@@ -4,7 +4,8 @@
 HANDLE comHandle; //uchwyt na obiekt (void *)
 BOOL portReady;
 DCB dcb; //ustawienia komunikacji szeregowej
-int BaudRate = 57600;
+//int BaudRate = 57600;
+int BaudRate = 115200;
 
 bool Initialize(char *ComPortName) {
 
