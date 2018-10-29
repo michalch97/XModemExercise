@@ -14,7 +14,7 @@ int main() {
             exit = true;
             break;
         }
-        https://support.microsoft.com/en-gb/help/115831/howto-specify-serial-ports-larger-than-com9
+        //https://support.microsoft.com/en-gb/help/115831/howto-specify-serial-ports-larger-than-com9
         cout<<" > Choose the COM port (COM{portNumber})"<<endl;
         cin >> args[1];
         cout<<" > File name"<<endl;
